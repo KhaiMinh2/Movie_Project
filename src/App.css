@@ -1,0 +1,128 @@
+.App {
+  /*align-items: flex-start; /* Align to the top */
+  height: 100%;
+  width: 100%;
+  background-color:gainsboro;
+}
+
+.Header {
+  margin:  auto;
+  display: Flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  width: 90%;
+  height: 9vh;
+  background-color: whitesmoke;}
+
+.Search {
+  margin: 10px auto;
+  display: Flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  width: 90%;
+  height: 5vh;
+}
+
+.center{
+  font-weight: bold;
+  font-size: larger;
+}
+
+.top5{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.img1{
+  width: 30vw;
+  height: 70vh;
+  border-radius: 8px;
+}
+
+.container{
+  position: relative;
+  text-align: center;
+  
+  
+}
+
+.title{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white !important;
+}
+
+.dark_mode5 .title{
+  color: white !important;
+}
+
+.top30{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  
+}
+
+.img2{
+  width: 27vw;
+  height: 70vh;
+  border-radius: 8px;
+}
+
+.text1{
+  width: 90%;
+  margin: auto;
+  font-size: larger;
+  font-weight: bold;
+}
+
+/* Dark_Mode */
+.dark_mode html {
+  background-color: #222 !important;
+}
+
+.dark_mode body {
+  filter: contrast(90%) invert(90%) hue-rotate(180deg) ;
+  -ms-filter: invert(100%);
+  -webkit-filter: contrast(90%) invert(90%) hue-rotate(180deg) ;
+  text-rendering: optimizeSpeed;
+  image-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  -webkit-image-rendering: optimizeSpeed;
+}
+
+.dark_mode input, textarea, select {
+  color: purple;
+}
+
+.dark_mode img, video, iframe, canvas, svg, embed[type='application/x-shockwave-flash'], object[type='application/x-shockwave-flash'], *[style*='url('] {
+  filter: invert(100%) hue-rotate(-180deg) ;
+  -ms-filter: invert(100%) ;
+  -webkit-filter: invert(100%) hue-rotate(-180deg) ;
+}
+
+.sd{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+}
+
+.img3{
+
+  width: 23vw;
+  height: 70vh;
+  border-radius: 8px;
+  text-align: center;
+  margin: 10px;
+
+}
